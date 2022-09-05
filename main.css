@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    width: 112px;
+    height: 18px;
+    margin-top: 79px;
+}
+.img{
+    width: 781px;
+    height: 482px;
+    margin-top: 85px;
+    margin-left: 49px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 387px;
+    background-color: #62A1EB;
+    border: none;
+    border-radius: 8px;
+    padding: 18px, 60px, 18px, 60px !important;
+    gap: 20px;
+    
+    
+    height: 60px;
+    cursor: pointer;
+    line-height: 24px;
+    font-weight: 500;
+}
+.btn-first{
+    margin-top: 123px;
+}
+.btn-second{
+    margin-top: 26px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}

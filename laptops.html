@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<head>
+  <title>redbery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="stylesheet" href="laptoops.css">
+</head>
+
+<body>
+    <div class="head">
+        <a class="a" href="add.html">თანამშრომლების ინფო</a>
+        <a class="a" href="#" >ლეპტოპის მახასიათებლები</a>
+    </div>
+
+    <div class="for-container">
+        <form class="container" id="myform" action="main.html">
+            <div class="drop-zone">
+                <span class="drop-zone__prompt">ჩაგდე ან ატვირთე ლეპტოპის ფოტო</span>
+                <input type="file" name="myFile" class="drop-zone__input">
+            </div>
+
+            <div class="brand">
+                <div>
+                    <p class="laptop">ლეპტოპის სახელი</p>
+                    <input type="text" class="laptop_name2">   
+                    <p class="laptop">ლათინური ასოები, ციფრები, !@#$%^&*()_+=</p>
+                </div>
+                <select name=""  id="" class="laptop_brand">
+                    <option value="" disabled selected>ლეპტოპის ბრენდი</option>
+                </select>
+
+            </div>
+            <div class="cpu">
+                <select name="" id="" class="cpu_name">
+                    <option value="" selected disabled>CPU</option>
+                    
+                </select>
+                <div>
+                    <p class="laptop">CPU-ს ბირთვი</p>
+                    <input type="number" class="cpu_cores">
+                    <p class="laptop">მხოლოდ ციფრები</p>
+                </div>
+                
+                <div>
+                    <p class="laptop">CPU-ს ნაკადი</p>
+                    <input type="number" class="cpu_stream">
+                    <p class="laptop">მხოლოდ ციფრები</p>
+                </div>
+            </div>
+
+            <div class="drive">
+                <div>
+                    <p class="laptop">ლეპტოპის RAM(GB)</p>
+                    <input type="number" class="ramgb">
+                    <p class="laptop">მხოლოდ ციფრები</p>
+                </div>
+                <div class="hard-drive">
+                    <p class="type_p">მეხსიერების ტიპი</p>
+                    <div class="hard_type">
+                        <input type="radio" name="drive" id="ssd">
+                        <label for="ssd">SSD</label>
+                        <input type="radio" name="drive" id="hdd">
+                        <label for="hdd">HDD</label>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="line" >
+                
+            </div>
+            <div class="buy">
+                <div>
+                    <p>შეძენის რიცხვი</p>
+                    <input type="date" class="date">
+
+                </div>
+                <div>
+                    <p>ლეპტოპის ფასი</p>
+                    <input type="number" class="price">
+                    <p>მხოლოდ ციპრები</p>
+                </div>
+
+            </div>
+            <div class="condition">
+                <p>ლეპტოპის მდგომარეობა</p>
+                <input type="radio" name="radio" id="axali">
+                <label for="axali">ახალი</label>
+                <input type="radio" name="radio" id="meoradi">
+                <label for="meoradi">მეორადი</label>
+            </div>
+            <div class="submit">
+                <a href="">უკან</a>
+                <button class="btn">დამახსოვრება</button>
+            </div>
+
+            
+
+        </form>
+        
+
+    </div>
+
+  
+
+  <script src="laptops.js"></script>
+</body>

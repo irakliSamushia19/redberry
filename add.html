@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    
+    <div class="main">  
+        <div class="head">
+            <a class="a" href="#">თანამშრომლების ინფო</a>
+            <a class="a" href="laptops.html">ლეპტოპის მახასიათებლები</a>
+        </div>
+        <div class="container">
+            <form class="form" id="myform" action="laptops.html">
+                <div class="namesurname">
+                    <div class="name">
+                        <p class="text1">სახელი</p>
+                        <input class="input1 input_name form-control" onkeyup="myFunction()" placeholder="გრიშა">
+                        <p class="text2 nametext">მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
+                    </div>
+                    <div class="surname">
+                        <p class="text1">გვარი</p>
+                        <input class="input1 input_lastname" onkeyup="myFunction()" placeholder="ბაგრატიონი">
+                        <p class="text2 lastnametext">მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
+                    </div>
+                </div>
+                <select class="select-team" >
+                    <option selected disabled>თიმი</option>
+                    
+                </select>
+                <select class="select-team2" >
+                    <option selected disabled>პოზიცია</option>
+                    
+                </select>
+
+                <p class="text3">მეილი</p>
+
+                <input class="input2 email form-control" onkeyup="myFunction()" placeholder="grish666@redberry.ge">
+
+                <p class="text2">უნდა მთავრდებოდეს @redberry.ge-ით </p>
+
+                <p class="text3">ტელეფონის ნომერი</p>
+
+                <input class="input2 phonenumber" onkeyup="myFunction()" placeholder="+995 598 00 07 01">
+
+                <p class="text2">უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს</p>
+
+                <button class="submit">შემდეგი</button>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="add.js"></script>
+</body>
+</html>

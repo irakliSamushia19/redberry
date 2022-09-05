@@ -1,0 +1,180 @@
+body{
+  background-color: #4386A9;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.a{
+    padding: 0px 33px;
+    text-decoration: none;
+    color: black;
+}
+.for-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    padding: 38px 174px 0px 174px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brand{
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.laptop_brand{
+  width: 408px;
+  height: 60px;
+}
+.laptop{
+  margin: 8px 0px;
+}
+.laptop_name2{
+  width: 399px;
+  height: 60px; 
+}
+.cpu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cpu_name{
+  width: 277px;
+  height: 60px;
+}
+.cpu_cores{
+  width: 277px;
+  height: 60px;
+}
+.cpu_stream{
+  width: 277px;
+  height: 60px;
+}
+.drive{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ramgb{
+  width: 399px;
+  height: 60px;
+}
+.hard-drive{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  width: 399px;
+  
+}
+.type_p{
+  margin: 8px 0px 26px 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#hdd{
+  margin-left: 70px;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 40px;
+
+}
+.buy{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.date{
+  width: 399px;
+  height: 60px;
+}
+.price{
+  width: 399px;
+  height: 60px;
+}
+.condition{
+  width: 100%;
+}
+.submit{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 94px;
+}
+.btn{
+  width: 219px;
+  height: 60px;
+  background-color: #62A1EB;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.drop-zone {
+    width: 824px;
+    height: 369px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #F6F6F6;
+    border: 2px dashed #4386A9;
+    border-radius: 10px;
+    
+  }
+  
+  .drop-zone--over {
+    border-style: solid;
+  }
+  
+  .drop-zone__input {
+    display: none;
+  }
+  
+  .drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #4386A9;
+    background-size: cover;
+    position: relative;
+  }
+  .drop-zone__prompt{
+    width: 260px;
+  }
+  
+  .drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+  }
